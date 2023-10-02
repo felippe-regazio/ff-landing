@@ -110,3 +110,14 @@ html {
 .link-list li:last-child {
   margin: 0;
 }
+
+@media screen and (max-width: 480px) {
+  .box {
+    padding: 40px;
+    padding-top: 140px;
+  }
+
+  .box__header h1 {
+    font-size: 32px;
+  }
+}
